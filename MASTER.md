@@ -45,7 +45,7 @@ El flujo recomendado es:
 5. implementación guiada por el diseño, con TDD y documentación viva,
 6. validación (DoR/DoD) y cierre con trazabilidad.
 
-La secuencia operativa está en [playbooks/documentation-stage-playbook.md](playbooks/documentation-stage-playbook.md). La estructura de `docs/` está en [standards/documentation-structure.md](standards/documentation-structure.md). El merge de código exige el job de [standards/living-docs-ci.md](standards/living-docs-ci.md).
+La secuencia operativa de un proyecto **nuevo** está en [playbooks/documentation-stage-playbook.md](playbooks/documentation-stage-playbook.md). Si el repo ya existe, usar [playbooks/existing-project-adoption-playbook.md](playbooks/existing-project-adoption-playbook.md). Calidad de cada incremento: [playbooks/quality-stage-playbook.md](playbooks/quality-stage-playbook.md). La estructura de `docs/` está en [standards/documentation-structure.md](standards/documentation-structure.md). El merge de código exige el job de [standards/living-docs-ci.md](standards/living-docs-ci.md).
 
 ### 4. Validación obligatoria
 

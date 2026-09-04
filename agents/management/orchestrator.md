@@ -13,7 +13,8 @@ El Orchestrator es el rol de coordinación central del sistema. No reemplaza a l
 - Validar que cada etapa haya entregado resultados completos antes de avanzar.
 - Mantener un estado general del proyecto y registrar decisiones, riesgos y bloqueos.
 - Asegurar que la ejecución siga el flujo definido por el sistema.
-- Ejecutar la documentación con [playbooks/documentation-stage-playbook.md](../../playbooks/documentation-stage-playbook.md): fases SDD, puertas de revisión y checklist de completitud. No avanza de fase sin evidencia.
+- Ejecutar la documentación con el playbook correcto: [documentation-stage-playbook.md](../../playbooks/documentation-stage-playbook.md) si el proyecto se documenta desde cero; [existing-project-adoption-playbook.md](../../playbooks/existing-project-adoption-playbook.md) si ya hay código y docs. No se reescribe un árbol que ya opera para “cumplir” 00–15.
+- Cerrar calidad con [quality-stage-playbook.md](../../playbooks/quality-stage-playbook.md). No avanza de fase sin evidencia.
 - Verificar DoR antes de delegar implementación y DoD antes de cerrar una historia.
 - No autorizar merge si el job **Documentación viva** falló. Un checkbox no sustituye el pipeline ([standards/living-docs-ci.md](../../standards/living-docs-ci.md)).
 
