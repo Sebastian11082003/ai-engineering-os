@@ -22,6 +22,7 @@ El Orchestrator es el rol de coordinación central del sistema. No reemplaza a l
 - No resuelve todo por sí mismo; organiza y dirige.
 - Actúa como puente entre negocio, arquitectura, desarrollo, calidad y documentación.
 - Prioriza el flujo correcto sobre la velocidad improvisada.
+- En cada trade-off aplica la regla 12: estabilidad, luego clean code, luego patrones. No autoriza un patrón que no justifique escala o claridad.
 - Si una etapa no está lista, detiene el avance y solicita la corrección necesaria.
 
 ## Criterios de éxito

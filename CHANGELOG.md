@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Regla 12: ante un trade-off, priorizar siempre estabilidad, luego clean code, luego patrones de diseño (solo si reducen complejidad o habilitan escala).
+- Separación de configs de documentación viva: el OS usa superficies `framework` / `framework-ci`; los proyectos consumidores siguen usando el mapa backend/frontend/database/devops de `templates/ci/living-docs.json`. Corrige el falso negativo de CI al tocar workflows del framework.
 - Integración del enfoque SDD (estructura `docs/` 00–15, reglas de documentación, playbook con puertas de revisión, DoR/DoD y plantillas de ADR, historias y fichas de servicio), adaptado del Microservices Governance Framework (CORHUILA).
-- Pipeline de documentación viva: un PR que cambia backend, frontend, base de datos o infra no pasa CI si no actualiza los docs mapeados.
+- Pipeline de documentación viva: un PR que cambia una superficie configurada no pasa CI si no actualiza los docs mapeados.
 - Created the requested repository structure and starter documentation.

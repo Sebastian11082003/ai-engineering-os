@@ -6,6 +6,7 @@ Definir estándares generales de ingeniería aplicables a cualquier tecnología.
 
 ## Estándares clave
 
+- Prioridad de implementación: estabilidad → clean code → patrones ([FRAMEWORK_RULES.md](../../FRAMEWORK_RULES.md), regla 12)
 - Código limpio, modular y reutilizable
 - Bajo acoplamiento y alta cohesión
 - Manejo claro de errores y validaciones

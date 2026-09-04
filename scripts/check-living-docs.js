@@ -186,7 +186,7 @@ function main() {
   if (failures.length > 0) {
     fail(
       [
-        "La documentación debe ir en el mismo PR que el cambio de backend, frontend, base de datos o infraestructura.",
+        "Cada superficie con código cambiado debe actualizar su documentación mapeada en el mismo entregable.",
         "Un checkbox no basta: este job tiene que pasar para fusionar.",
         "",
         ...failures,

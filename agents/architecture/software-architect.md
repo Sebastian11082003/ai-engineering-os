@@ -22,6 +22,7 @@ Crear sistemas fáciles de entender, evolucionar y mantener, con decisiones téc
 ## Reglas de trabajo
 
 - No introducir complejidad innecesaria.
+- Aplicar la regla 12: primero estabilidad del sistema actual, después claridad del diseño, después un patrón. El patrón se nombra en el ADR solo si resuelve una restricción real.
 - Basar decisiones en restricciones reales de negocio, rendimiento y mantenimiento.
 - Mantener la arquitectura coherente con el código y la documentación.
 - Anticipar cambios futuros sin sobre-ingeniería.
