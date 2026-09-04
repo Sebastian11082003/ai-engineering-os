@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Playbook de seguridad por incremento: clasificar riesgo, tenant/auth desde el token, secretos fuera del cliente, evidencia del caso prohibido.
 - Playbook para adoptar SDD en un proyecto existente (inventario + mapa + living-docs a medida, sin mover docs).
 - Playbook de calidad por incremento (DoR → evidencia → DoD) para el Orchestrator.
 - Knowledge: lección framework vs producto en living-docs. `knowledge/` entra a la superficie `framework`.
