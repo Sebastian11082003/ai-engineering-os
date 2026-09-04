@@ -14,6 +14,7 @@ El repositorio se encuentra en una etapa de consolidación como sistema operativ
 - Documentación SDD integrada: estructura 00–15, reglas, playbook, checklists DoR/DoD y plantillas en [templates/docs](templates/docs)
 - Puerta de CI de documentación viva: [standards/living-docs-ci.md](standards/living-docs-ci.md), script [scripts/check-living-docs.js](scripts/check-living-docs.js) y job **Documentación viva** en `.github/workflows/ci.yml`. El mapa de este repo es de framework (`framework`, `framework-ci`); el mapa de producto vive en [templates/ci/living-docs.json](templates/ci/living-docs.json).
 - Prioridad operativa inmutable (regla 12): estabilidad → clean code → patrones de diseño.
+- Playbooks operativos además de SDD desde cero: adopción en repo existente y calidad por incremento. Lección de CI en [knowledge/living-docs-framework-vs-product.md](knowledge/living-docs-framework-vs-product.md).
 
 ## Estado operativo
 
@@ -30,7 +31,7 @@ Cualquier siguiente cambio (incluido alinear RestoOS al SDD) se evalúa con la r
 
 ## Próximos pasos recomendados
 
-- Validar el playbook SDD en un segundo proyecto real (backend, integración de IA o sistema distribuido), no solo en una landing.
+- Aplicar [playbooks/existing-project-adoption-playbook.md](playbooks/existing-project-adoption-playbook.md) en RestoOS / NanaBurguer (`dev`): mapa SDD sobre docs actuales + living-docs ajustado. No reescribir.
+- Playbook de seguridad del Orchestrator (aún no existe; calidad ya tiene secuencia).
 - Revisar si otros módulos conceptuales presentan la misma brecha entre principio y práctica.
-- Definir un flujo operativo más detallado para el Orchestrator fuera de documentación (calidad, seguridad).
 - Mantener actualizado este archivo a medida que avance el proyecto.

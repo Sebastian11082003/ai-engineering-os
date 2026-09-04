@@ -27,7 +27,7 @@ El script es el mismo. El mapa de superficies no.
 
 | Repo | Archivo | Superficies | Docs que exige |
 |---|---|---|---|
-| Este OS | [`.living-docs.json`](../.living-docs.json) | `framework`, `framework-ci` | `CHANGELOG.md`, `PROJECT_STATE.md`, `standards/living-docs-ci.md` |
+| Este OS | [`.living-docs.json`](../.living-docs.json) | `framework` (incluye `knowledge/`), `framework-ci` | `CHANGELOG.md`, `PROJECT_STATE.md`, `standards/living-docs-ci.md` |
 | Proyecto consumidor | copia de [templates/ci/living-docs.json](../templates/ci/living-docs.json) | backend, frontend, database, devops | `docs/05`–`14` según la superficie |
 
 Mezclar ambos mapas rompe estabilidad: el CI del OS pedía `docs/10-devops/**` (convención de producto) al tocar `.github/workflows/ci.yml`. El OS no es un producto con `docs/00–15`; su `docs/` documenta el framework.

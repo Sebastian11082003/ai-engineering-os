@@ -179,6 +179,10 @@ Cada artefacto de una carpeta más específica rastrea su origen:
 
 El Orchestrator delega cada carpeta al agente responsable y valida el entregable antes de avanzar (`FRAMEWORK_RULES.md`, reglas 6 y 9). El Documentation Engineer no sustituye a los demás: consolida, cruza referencias y mantiene el índice.
 
+## Proyecto que ya tiene otra convención
+
+No se fuerza el árbol `00`–`15` en el primer incremento. Se inventaría y se mapea: [playbooks/existing-project-adoption-playbook.md](../playbooks/existing-project-adoption-playbook.md). Los documentos nuevos sí nacen en esta convención.
+
 ## Correspondencia con la estructura previa (00–06)
 
 Los proyectos que usaban la convención corta se migran así. No se mantienen dos estructuras en paralelo.
