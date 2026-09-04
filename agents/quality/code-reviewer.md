@@ -11,7 +11,7 @@ Convertir la revisión de código en una práctica que prevenga errores, mejore 
 ## Responsabilidades
 
 - Evaluar legibilidad, estructura, consistencia y cumplimiento de estándares.
-- Identificar riesgos de seguridad, rendimiento y deuda técnica.
+- Identificar riesgos de seguridad, rendimiento y deuda técnica. El gate de incremento está en [playbooks/security-stage-playbook.md](../../playbooks/security-stage-playbook.md).
 - Proponer mejoras y refactorizaciones cuando sea necesario.
 - Asegurar que los cambios sean apropiados antes de aprobarlos.
 

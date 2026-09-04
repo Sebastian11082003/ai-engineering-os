@@ -14,7 +14,7 @@ El repositorio se encuentra en una etapa de consolidación como sistema operativ
 - Documentación SDD integrada: estructura 00–15, reglas, playbook, checklists DoR/DoD y plantillas en [templates/docs](templates/docs)
 - Puerta de CI de documentación viva: [standards/living-docs-ci.md](standards/living-docs-ci.md), script [scripts/check-living-docs.js](scripts/check-living-docs.js) y job **Documentación viva** en `.github/workflows/ci.yml`. El mapa de este repo es de framework (`framework`, `framework-ci`); el mapa de producto vive en [templates/ci/living-docs.json](templates/ci/living-docs.json).
 - Prioridad operativa inmutable (regla 12): estabilidad → clean code → patrones de diseño.
-- Playbooks operativos además de SDD desde cero: adopción en repo existente y calidad por incremento. Lección de CI en [knowledge/living-docs-framework-vs-product.md](knowledge/living-docs-framework-vs-product.md).
+- Playbooks operativos: adopción en repo existente, calidad por incremento y seguridad por incremento. Lección de CI en [knowledge/living-docs-framework-vs-product.md](knowledge/living-docs-framework-vs-product.md).
 
 ## Estado operativo
 
@@ -31,7 +31,6 @@ Cualquier siguiente cambio (incluido alinear RestoOS al SDD) se evalúa con la r
 
 ## Próximos pasos recomendados
 
-- Aplicar [playbooks/existing-project-adoption-playbook.md](playbooks/existing-project-adoption-playbook.md) en RestoOS / NanaBurguer (`dev`): mapa SDD sobre docs actuales + living-docs ajustado. No reescribir.
-- Playbook de seguridad del Orchestrator (aún no existe; calidad ya tiene secuencia).
-- Revisar si otros módulos conceptuales presentan la misma brecha entre principio y práctica.
+- RestoOS (`dev`) ya tiene mapa SDD + living-docs. El siguiente hueco de producto se abre solo si un cambio de código lo obliga (permisos en más controllers, tests de roles, runbook).
+- Revisar si otros módulos conceptuales presentan la misma brecha entre principio y práctica (el de seguridad ya tiene secuencia).
 - Mantener actualizado este archivo a medida que avance el proyecto.
