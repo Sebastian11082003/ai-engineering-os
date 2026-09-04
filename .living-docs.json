@@ -1,88 +1,13 @@
 {
-  "$comment": "Puerta de documentación viva. Copiar y ajustar rutas en cada proyecto consumidor. Ver standards/living-docs-ci.md.",
+  "$comment": "Config del REPOSITORIO DEL OS. No copiar a un proyecto consumidor. El producto usa templates/ci/living-docs.json (superficies backend/frontend/database/devops → docs/00–15).",
   "docsRoot": "docs",
   "requireDocsRootChange": false,
   "surfaces": {
-    "backend": {
-      "code": [
-        "backend/**",
-        "server/**",
-        "api/**",
-        "apps/api/**",
-        "apps/backend/**",
-        "services/**",
-        "src/api/**",
-        "src/server/**",
-        "src/modules/**",
-        "src/controllers/**",
-        "src/routes/**",
-        "**/openapi/**",
-        "**/graphql/**"
-      ],
-      "docs": [
-        "docs/07-api/**",
-        "docs/09-microservices/**",
-        "docs/05-architecture/**"
-      ]
-    },
-    "frontend": {
-      "code": [
-        "frontend/**",
-        "web/**",
-        "client/**",
-        "apps/web/**",
-        "apps/frontend/**",
-        "src/components/**",
-        "src/pages/**",
-        "src/app/**",
-        "src/views/**",
-        "src/layouts/**",
-        "src/hooks/**"
-      ],
-      "docs": [
-        "docs/12-ux-ui/**",
-        "docs/07-api/**",
-        "docs/14-training/**"
-      ]
-    },
-    "database": {
-      "code": [
-        "**/migrations/**",
-        "**/prisma/**",
-        "**/alembic/**",
-        "**/drizzle/**",
-        "**/typeorm/**",
-        "**/*schema*.sql",
-        "**/*.prisma",
-        "db/**",
-        "database/**",
-        "supabase/migrations/**"
-      ],
-      "docs": [
-        "docs/06-data/**",
-        "docs/09-microservices/**"
-      ]
-    },
-    "devops": {
-      "code": [
-        ".github/workflows/**",
-        "Dockerfile*",
-        "docker-compose*.yml",
-        "docker-compose*.yaml",
-        "infra/**",
-        "terraform/**",
-        "k8s/**",
-        "helm/**"
-      ],
-      "docs": [
-        "docs/10-devops/**",
-        "docs/13-operations/**"
-      ]
-    },
     "framework": {
       "code": [
         "core/**",
         "agents/**",
+        "teams/**",
         "standards/**",
         "playbooks/**",
         "templates/**",
@@ -94,6 +19,17 @@
       "docs": [
         "CHANGELOG.md",
         "PROJECT_STATE.md"
+      ]
+    },
+    "framework-ci": {
+      "code": [
+        ".github/workflows/**",
+        "scripts/**",
+        ".living-docs.json"
+      ],
+      "docs": [
+        "standards/living-docs-ci.md",
+        "CHANGELOG.md"
       ]
     }
   },

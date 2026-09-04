@@ -35,3 +35,8 @@ jobs:
           test -f scripts/check-living-docs.js
           test -f standards/documentation-structure.md
           test -f playbooks/documentation-stage-playbook.md
+          test -f templates/ci/living-docs.json
+          if grep -q 'docs/10-devops' .living-docs.json; then
+            echo "El mapa del OS no debe exigir docs/10-devops (eso es de proyectos consumidores)."
+            exit 1
+          fi
