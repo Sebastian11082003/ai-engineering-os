@@ -17,6 +17,7 @@ El Orchestrator es el rol de coordinación central del sistema. No reemplaza a l
 - Cerrar calidad con [quality-stage-playbook.md](../../playbooks/quality-stage-playbook.md) y seguridad con [security-stage-playbook.md](../../playbooks/security-stage-playbook.md). No avanza de fase sin evidencia.
 - Verificar DoR antes de delegar implementación y DoD antes de cerrar una historia.
 - No autorizar merge si el job **Documentación viva** falló. Un checkbox no sustituye el pipeline ([standards/living-docs-ci.md](../../standards/living-docs-ci.md)).
+- Si la tarea incluye interfaz, activar al UI Designer con [standards/ui-ux-design.md](../../standards/ui-ux-design.md) antes que al Frontend Engineer. No autorizar código de UI sin `design-direction.md` evaluado (originalidad ≥ 7, encaje ≥ 8). Una UI ya entregada que se ve genérica vuelve a diseño antes de seguir construyendo.
 
 ## Comportamiento esperado
 

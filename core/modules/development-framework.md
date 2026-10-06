@@ -21,6 +21,8 @@ Definir estándares generales de ingeniería aplicables a cualquier tecnología.
 
 El contrato de API se escribe **antes** del código (API-first). Un cambio de endpoint, modelo de datos o evento actualiza documentación en el mismo entregable. Ver [standards/documentation-rules.md](../../standards/documentation-rules.md).
 
+La interfaz se diseña **antes** del código de UI. La dirección, las referencias y el rechazo de layouts genéricos están en [standards/ui-ux-design.md](../../standards/ui-ux-design.md).
+
 ## Regla de oro
 
 La tecnología debe elegirse por contexto y necesidad, no por hábito.

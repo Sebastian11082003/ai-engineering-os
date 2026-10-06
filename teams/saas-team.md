@@ -17,5 +17,6 @@ Desarrollar plataformas escalables, fáciles de usar y alineadas con las necesid
 ## Reglas de trabajo
 
 - Pensar en crecimiento, mantenimiento y experiencia del cliente desde el inicio.
+- La interfaz de producto sigue [standards/ui-ux-design.md](../standards/ui-ux-design.md). Un dashboard genérico con el logo del producto no cumple.
 - Diseñar para escalabilidad y evolución del producto.
 - Priorizar confiabilidad y calidad en cada iteración.

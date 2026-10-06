@@ -68,6 +68,7 @@ Ninguna fase se cierra sin evidencia. Completar documentación **no autoriza** a
 - Plantillas: [templates/docs](../../templates/docs)
 - Checklists DoR / DoD / completitud: [checklists](../../checklists)
 - CI de documentación viva: [standards/living-docs-ci.md](../../standards/living-docs-ci.md)
+- Diseño de interfaz antes del código de UI: [standards/ui-ux-design.md](../../standards/ui-ux-design.md)
 
 ## Origen de la metodología
 

@@ -19,3 +19,4 @@ Crear landing pages claras, atractivas y orientadas a resultados, con una experi
 - Priorizar claridad sobre exceso de información.
 - Mantener el foco en la acción principal del usuario.
 - Medir impacto y mejorar continuamente.
+- La landing sigue [standards/ui-ux-design.md](../standards/ui-ux-design.md). Cada sección elige su composición. Una landing que, sin marca, podría ser de otro producto no se publica.

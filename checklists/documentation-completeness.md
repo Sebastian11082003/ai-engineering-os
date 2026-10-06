@@ -31,6 +31,7 @@ El Orchestrator usa este checklist al cerrar la etapa de documentación de un pr
 - [ ] Catálogo de servicios/módulos
 - [ ] Ficha de cada servicio/módulo (README + data-model)
 - [ ] Mapa de navegación / UX (o no aplica, justificado)
+- [ ] Dirección de diseño con referencias, ADN y evaluación (o no aplica, justificado). Ver [ui-ux-design.md](../standards/ui-ux-design.md)
 - [ ] Autorización explícita antes de implementar
 
 ## Gobernanza y control

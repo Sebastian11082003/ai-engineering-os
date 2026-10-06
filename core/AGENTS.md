@@ -50,6 +50,8 @@ La documentación de un proyecto consumidor se ejecuta con:
 - [../playbooks/documentation-stage-playbook.md](../playbooks/documentation-stage-playbook.md)
 - [../templates/docs](../templates/docs)
 
+Si el proyecto consumidor tiene interfaz, el diseño sigue [../standards/ui-ux-design.md](../standards/ui-ux-design.md) antes de implementar.
+
 ## Núcleo operativo
 
 - [MASTER.md](../MASTER.md): guía para usar el framework.

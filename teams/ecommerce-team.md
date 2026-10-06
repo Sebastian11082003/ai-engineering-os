@@ -17,5 +17,6 @@ Crear plataformas de comercio digital que generen confianza, facilidad de compra
 ## Reglas de trabajo
 
 - Pensar en el usuario como parte de un flujo completo y crítico.
+- El recorrido de compra sigue [standards/ui-ux-design.md](../standards/ui-ux-design.md): patrones de producto real, no una tienda genérica con otro logo.
 - Reducir fricción en cada etapa del proceso.
 - Probar los flujos clave con rigor y medir resultados.

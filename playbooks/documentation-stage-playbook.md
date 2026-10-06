@@ -62,11 +62,11 @@ Si algo falta, detener y corregir. No se documenta la carencia como aceptable si
 
 - Software Architect → `08-uml`: índice y diagramas de flujos críticos.
 - Backend Engineer → `09-microservices`: catálogo y ficha por servicio/módulo (plantillas en `templates/docs`).
-- UI Designer → `12-ux-ui`: mapa de navegación y, si hay UI, sistema de diseño.
+- UI Designer → `12-ux-ui`, siguiendo [standards/ui-ux-design.md](../standards/ui-ux-design.md): mapa de navegación y, si hay UI, dirección de diseño y sistema de diseño. La dirección se evalúa antes de seguir. Si la originalidad es menor que 7 o el encaje con el producto es menor que 8, se rediseña en esta fase.
 
 #### 9. Gate: planning de implementación
 
-Confirmar que hay diseño suficiente para las historias del siguiente incremento. Completar esta fase **no autoriza** a implementar (`FRAMEWORK_RULES.md`, reglas 1 y 6). El Orchestrator pide autorización explícita al stakeholder.
+Confirmar que hay diseño suficiente para las historias del siguiente incremento. Si hay UI, `design-direction.md` existe, la evaluación pasa y la pregunta del logo (sin nombre, ¿podría ser otro producto?) se respondió que no. Completar esta fase **no autoriza** a implementar (`FRAMEWORK_RULES.md`, reglas 1, 6 y 13). El Orchestrator pide autorización explícita al stakeholder.
 
 ### Fase 4 — Implementación y operación (solo con autorización)
 
@@ -105,6 +105,7 @@ El Orchestrator confirma uno por uno, con evidencia (archivo con contenido real,
 - [ ] Modelo de datos (o justificación)
 - [ ] Contratos de API (o justificación)
 - [ ] Catálogo de servicios/módulos
+- [ ] Dirección de diseño UI (o justificación de por qué no hay interfaz)
 - [ ] Estrategia de pruebas
 - [ ] Riesgos registrados
 - [ ] DoR y DoD del proyecto

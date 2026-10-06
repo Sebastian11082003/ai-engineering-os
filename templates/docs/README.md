@@ -17,6 +17,7 @@ Secuencia: [playbooks/documentation-stage-playbook.md](../../playbooks/documenta
 | [_template-service-events.md](_template-service-events.md) | `.../events.md` |
 | [_template-service-decisions.md](_template-service-decisions.md) | `.../decisions.md` |
 | [_template-service-runbook.md](_template-service-runbook.md) | `.../runbook.md` |
+| [_template-design-direction.md](_template-design-direction.md) | `12-ux-ui/design-direction.md` |
 
 ## Árbol mínimo a crear en un proyecto nuevo
 

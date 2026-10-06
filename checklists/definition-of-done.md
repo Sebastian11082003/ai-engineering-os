@@ -30,6 +30,7 @@ Una historia está **Done** cuando cumple **todos** los criterios. Si falta uno,
 - [ ] Si hubo una decisión técnica no obvia: ADR creado o actualizado.
 - [ ] Los documentos afectados se actualizaron en el mismo entregable ([documentation-rules.md](../standards/documentation-rules.md)).
 - [ ] El job **Documentación viva** del CI está en verde ([living-docs-ci.md](../standards/living-docs-ci.md)).
+- [ ] Si la historia cambia interfaz: `docs/12-ux-ui/design-direction.md` existe, la originalidad es ≥ 7, el encaje es ≥ 8, y la UI implementada sigue ese Design DNA ([ui-ux-design.md](../standards/ui-ux-design.md)).
 
 ### Despliegue (cuando el incremento se entrega a un entorno)
 

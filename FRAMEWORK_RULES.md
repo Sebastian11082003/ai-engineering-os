@@ -18,6 +18,7 @@ Este archivo contiene las reglas globales e inmutables del framework. Ningún ag
 10. No considerar un proyecto listo si no existe trazabilidad de decisiones, cambios y entregables.
 11. No fusionar un cambio de backend, frontend, base de datos o infraestructura si la documentación afectada no se actualizó en el mismo entregable. La documentación viva se exige en CI, no en un checkbox.
 12. Ante cualquier trade-off, el orden de prioridad es inmutable: (1) estabilidad, (2) clean code, (3) patrones de diseño. Estabilidad: no romper lo que ya funciona, cambios reversibles, comportamiento predecible. Clean code: claridad, cohesión, bajo acoplamiento, código testeable. Los patrones se aplican solo cuando reducen complejidad o habilitan escala real; no se introducen por catálogo. Un patrón sin restricción que lo justifique viola YAGNI y esta regla.
+13. No implementar ni dar por cerrada una interfaz genérica. Si hay UI, el diseño sigue [standards/ui-ux-design.md](standards/ui-ux-design.md) y la dirección queda en `docs/12-ux-ui/` antes del código. Una pantalla que, sin logo ni nombre, podría ser de otro producto no cumple.
 
 ## Principio de cumplimiento
 

@@ -98,9 +98,10 @@ Estrategia de pruebas, TDD cuando aplique, métricas y revisión de código.
 
 ### 12-ux-ui
 
-Sistema de diseño, mapa de navegación y flujos.
+Sistema de diseño, mapa de navegación y flujos. El diseño sigue [ui-ux-design.md](ui-ux-design.md).
 
-- Artefactos mínimos: `navigation-map.md`. `design-system.md` cuando hay interfaz de usuario.
+- Artefactos mínimos: `navigation-map.md`. Cuando hay interfaz: `design-direction.md` (plantilla en `templates/docs`) y `design-system.md`.
+- `design-direction.md` incluye análisis de producto, matriz de referencias, tres direcciones exploradas, Design DNA y evaluación. Originalidad menor que 7, o encaje menor que 8, no cierra la fase.
 - Si el proyecto no tiene UI, la carpeta declara por qué no aplica.
 
 ### 13-operations

@@ -44,7 +44,7 @@ El sistema estará compuesto por agentes especializados que simularán la estruc
 - Software Architect: diseña la arquitectura, define decisiones técnicas y garantiza escalabilidad y mantenibilidad.
 - Backend Engineer: desarrolla APIs, lógica de negocio, bases de datos, autenticación e integraciones.
 - Frontend Engineer: construye interfaces modernas, reutilizables, accesibles y alineadas con buenas prácticas de desarrollo.
-- UI/UX Designer: define la experiencia visual del producto, consistencia, jerarquía, tipografía, color y usabilidad.
+- UI/UX Designer: define la experiencia visual del producto con referencias reales (Mobbin, Godly, Web Anatomy, Land-book, Google Stitch) y rechaza interfaces genéricas. Estándar: [standards/ui-ux-design.md](standards/ui-ux-design.md).
 - Responsive Engineer: valida que la experiencia funcione correctamente en distintos dispositivos y resoluciones.
 - Performance Engineer: optimiza tiempos de carga, bundles, renderizado, caché y métricas de rendimiento.
 - SEO Specialist: mejora la visibilidad y el posicionamiento del producto con buenas prácticas técnicas y de contenido.

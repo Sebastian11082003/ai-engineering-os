@@ -17,5 +17,6 @@ Operar con una mentalidad lean, flexible y orientada a la acción, sin perder ca
 ## Reglas de trabajo
 
 - No sobrecomplicar cuando la solución simple sirve.
+- Iterar rápido no autoriza una UI genérica. Si hay interfaz, se diseña con [standards/ui-ux-design.md](../standards/ui-ux-design.md) antes de construirla.
 - Validar con usuarios, datos y feedback real.
 - Mantener orden, claridad y comunicación efectiva.

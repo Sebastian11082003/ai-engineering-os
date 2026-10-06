@@ -47,6 +47,8 @@ El flujo recomendado es:
 
 La secuencia operativa de un proyecto **nuevo** está en [playbooks/documentation-stage-playbook.md](playbooks/documentation-stage-playbook.md). Si el repo ya existe, usar [playbooks/existing-project-adoption-playbook.md](playbooks/existing-project-adoption-playbook.md). Cada incremento: [playbooks/quality-stage-playbook.md](playbooks/quality-stage-playbook.md) y [playbooks/security-stage-playbook.md](playbooks/security-stage-playbook.md). La estructura de `docs/` está en [standards/documentation-structure.md](standards/documentation-structure.md). El merge de código exige el job de [standards/living-docs-ci.md](standards/living-docs-ci.md).
 
+Cuando el trabajo incluye interfaz, el UI Designer escribe la dirección de diseño antes de que el Frontend implemente. El estándar, las cinco fuentes de referencia y la regla anti-genérica están en [standards/ui-ux-design.md](standards/ui-ux-design.md).
+
 ### 4. Validación obligatoria
 
 Ninguna etapa debe cerrarse sin:

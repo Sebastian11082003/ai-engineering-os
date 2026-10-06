@@ -24,6 +24,7 @@ El repositorio se encuentra en una etapa de consolidación como sistema operativ
 - El sistema está listo para usarse como base de trabajo en nuevos proyectos.
 - El framework fue puesto a prueba en un proyecto real (una landing page de servicios de software). La prueba evidenció una brecha entre el principio y la práctica: el Orchestrator, al aplicar solo una lista de documentos obligatorios, entregó documentación incompleta. Esa brecha se cerró primero con una estructura corta 00–06.
 - La estructura corta se sustituyó por el enfoque SDD del *Microservices Governance Framework* (CORHUILA), adaptado a este OS: [core/modules/documentation-framework.md](core/modules/documentation-framework.md), [standards/documentation-structure.md](standards/documentation-structure.md), [standards/documentation-rules.md](standards/documentation-rules.md), [playbooks/documentation-stage-playbook.md](playbooks/documentation-stage-playbook.md). La proporcionalidad se conserva: no todos los proyectos son microservicios; ningún artefacto se omite en silencio.
+- El diseño de interfaz quedó como regla del framework ([standards/ui-ux-design.md](standards/ui-ux-design.md), regla 13 de [FRAMEWORK_RULES.md](FRAMEWORK_RULES.md)). Los proyectos consumidores diseñan con Mobbin, Godly, Web Anatomy, Land-book y Google Stitch, documentan la dirección en `docs/12-ux-ui/` y no cierran una UI que, sin marca, podría ser de otro producto.
 
 ## Prioridad de trabajo
 
