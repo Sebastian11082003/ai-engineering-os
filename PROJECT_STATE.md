@@ -15,7 +15,6 @@ El repositorio se encuentra en una etapa de consolidación como sistema operativ
 - Puerta de CI de documentación viva: [standards/living-docs-ci.md](standards/living-docs-ci.md), script [scripts/check-living-docs.js](scripts/check-living-docs.js) y job **Documentación viva** en `.github/workflows/ci.yml`. El mapa de este repo es de framework (`framework`, `framework-ci`); el mapa de producto vive en [templates/ci/living-docs.json](templates/ci/living-docs.json).
 - Prioridad operativa inmutable (regla 12): estabilidad → clean code → patrones de diseño.
 - Playbooks operativos: adopción en repo existente, calidad por incremento y seguridad por incremento. Lección de CI en [knowledge/living-docs-framework-vs-product.md](knowledge/living-docs-framework-vs-product.md).
-- Proyecto consumidor [apps/inventario-codigos](apps/inventario-codigos/README.md): inventario de códigos de barras para importar a un POS. Su SDD vive en `apps/inventario-codigos/docs/`. No modifica el núcleo del OS. El CI corre su mapa de documentación viva con `LIVING_DOCS_CONFIG` y sus pruebas aparte.
 
 ## Estado operativo
 

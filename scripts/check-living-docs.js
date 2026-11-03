@@ -6,7 +6,6 @@
  *
  * Uso:
  *   node scripts/check-living-docs.js
- *   LIVING_DOCS_CONFIG=apps/inventario-codigos/.living-docs.json node scripts/check-living-docs.js
  *   BASE_SHA=<sha> HEAD_SHA=<sha> node scripts/check-living-docs.js
  */
 
@@ -15,18 +14,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const ROOT = path.resolve(__dirname, "..");
-function resolveConfigPath() {
-  const override = process.env.LIVING_DOCS_CONFIG;
-  if (!override) {
-    return path.join(ROOT, ".living-docs.json");
-  }
-  const resolved = path.resolve(ROOT, override);
-  const relative = path.relative(ROOT, resolved);
-  if (relative.startsWith("..") || path.isAbsolute(relative)) {
-    fail("LIVING_DOCS_CONFIG debe apuntar a un archivo dentro del repositorio.");
-  }
-  return resolved;
-}
+const CONFIG_PATH = path.join(ROOT, ".living-docs.json");
 
 function git(args) {
   return execFileSync("git", args, {
@@ -37,12 +25,10 @@ function git(args) {
 }
 
 function loadConfig() {
-  const configPath = resolveConfigPath();
-  if (!fs.existsSync(configPath)) {
-    fail(`No existe ${path.relative(ROOT, configPath)}.`);
+  if (!fs.existsSync(CONFIG_PATH)) {
+    fail(`No existe ${path.relative(ROOT, CONFIG_PATH)}.`);
   }
-  console.log(`[living-docs] config ${path.relative(ROOT, configPath)}`);
-  return JSON.parse(fs.readFileSync(configPath, "utf8"));
+  return JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"));
 }
 
 function globToRegExp(glob) {
@@ -205,7 +191,7 @@ function main() {
         "",
         ...failures,
         "",
-        "Ajusta las rutas en el mapa de documentación viva si la estructura del repo es distinta.",
+        "Ajusta las rutas en .living-docs.json si la estructura del repo es distinta.",
         "Guía: standards/living-docs-ci.md",
       ].join("\n")
     );

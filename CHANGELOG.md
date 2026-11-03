@@ -2,7 +2,6 @@
 
 ## Unreleased
 
-- App consumidor `apps/inventario-codigos`: inventario por código de barras en el teléfono, documentación SDD propia y publicación estática gratuita. El mapa de documentación viva del OS no cambia; el producto usa `LIVING_DOCS_CONFIG`.
 - Estándar de UI/UX con referencias (Mobbin, Godly, Web Anatomy, Land-book, Google Stitch): dirección de diseño obligatoria antes del código y rechazo de interfaces genéricas.
 - Playbook de seguridad por incremento: clasificar riesgo, tenant/auth desde el token, secretos fuera del cliente, evidencia del caso prohibido.
 - Playbook para adoptar SDD en un proyecto existente (inventario + mapa + living-docs a medida, sin mover docs).
