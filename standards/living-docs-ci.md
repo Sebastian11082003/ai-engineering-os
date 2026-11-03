@@ -46,6 +46,17 @@ Eso es separación de responsabilidades: una config por rol de repositorio, no u
 
 Sin el paso 4 el workflow corre pero un merge directo sigue siendo posible. La puerta real es el status check obligatorio.
 
+## App consumidor dentro de este repositorio
+
+`apps/inventario-codigos/` es un producto dentro del OS, no una carpeta del framework. Su mapa no se mezcla con [`.living-docs.json`](../.living-docs.json): el job **Documentación viva** ejecuta el script dos veces.
+
+1. Sin variables extra: mapa del OS (`framework`, `framework-ci`).
+2. Con `LIVING_DOCS_CONFIG=apps/inventario-codigos/.living-docs.json`: mapa del producto (frontend, base local, publicación estática).
+
+`LIVING_DOCS_CONFIG` es una ruta relativa a la raíz del repositorio. El script rechaza una ruta que salga de esa raíz. `requireDocsRootChange` queda en falso en el mapa del producto para que un cambio solo del OS no exija tocar `apps/inventario-codigos/docs/`. Si cambia el código de la app, sí exige los documentos de esa superficie.
+
+La publicación a GitHub Pages es un workflow aparte (`Inventario en GitHub Pages`), manual, y no sustituye este job.
+
 ## Excepciones
 
 No hay skip por etiqueta, comentario ni `[skip docs]` cuando cambian backend, frontend o base de datos.

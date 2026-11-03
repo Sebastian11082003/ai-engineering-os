@@ -85,3 +85,7 @@ Este repositorio no solo almacenará instrucciones o plantillas, sino también c
 - y mejores prácticas reutilizables.
 
 De esta manera, AI Engineering OS se convertirá en una plataforma reutilizable capaz de acelerar el desarrollo de aplicaciones web, sistemas SaaS, APIs, plataformas empresariales, productos basados en inteligencia artificial y cualquier otro proyecto de software, manteniendo siempre un nivel de calidad consistente, una arquitectura sólida y un proceso de desarrollo comparable al de equipos de ingeniería de alto rendimiento.
+
+## Proyecto consumidor
+
+[apps/inventario-codigos](apps/inventario-codigos/README.md) es una aplicación de inventario por código de barras. No forma parte del núcleo del OS. Cómo ejecutarla, el contrato Excel y el despliegue gratuito están en ese README. La documentación SDD está en [apps/inventario-codigos/docs](apps/inventario-codigos/docs/README.md).

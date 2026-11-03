@@ -1,0 +1,47 @@
+{
+  "docsRoot": "apps/inventario-codigos/docs",
+  "requireDocsRootChange": false,
+  "surfaces": {
+    "frontend": {
+      "code": [
+        "apps/inventario-codigos/src/**",
+        "apps/inventario-codigos/index.html",
+        "apps/inventario-codigos/public/**"
+      ],
+      "docs": [
+        "apps/inventario-codigos/docs/12-ux-ui/**",
+        "apps/inventario-codigos/docs/07-api/**",
+        "apps/inventario-codigos/docs/14-training/**"
+      ]
+    },
+    "database": {
+      "code": [
+        "apps/inventario-codigos/src/persistence/**"
+      ],
+      "docs": [
+        "apps/inventario-codigos/docs/06-data/**",
+        "apps/inventario-codigos/docs/09-microservices/**"
+      ]
+    },
+    "devops": {
+      "code": [
+        ".github/workflows/inventario-pages.yml",
+        "apps/inventario-codigos/vite.config.ts"
+      ],
+      "docs": [
+        "apps/inventario-codigos/docs/10-devops/**",
+        "apps/inventario-codigos/docs/13-operations/**"
+      ]
+    }
+  },
+  "ignore": [
+    "**/*.lock",
+    "**/package-lock.json",
+    "**/pnpm-lock.yaml",
+    "**/yarn.lock",
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/*.png",
+    "**/*.svg"
+  ]
+}

@@ -21,6 +21,29 @@ jobs:
           BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
           HEAD_SHA: ${{ github.sha }}
         run: node scripts/check-living-docs.js
+      - name: Verificar documentación viva de inventario-codigos
+        env:
+          LIVING_DOCS_CONFIG: apps/inventario-codigos/.living-docs.json
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
+        run: node scripts/check-living-docs.js
+
+  inventario:
+    name: Inventario códigos
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: apps/inventario-codigos/package-lock.json
+      - name: Probar y construir la app
+        working-directory: apps/inventario-codigos
+        run: |
+          npm ci
+          npm test
+          npm run build
 
   validate:
     name: Estructura
